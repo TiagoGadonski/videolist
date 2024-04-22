@@ -23,7 +23,7 @@ const Menu: React.FC<MenuProps> = ({ setLanguage, initialLanguage }) => {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link href="/">Videos</Nav.Link>
-            <Nav.Link href="/blog">Blog</Nav.Link>  {/* Atualizado para apontar para a rota '/blog' */}
+            <Nav.Link href="/portfolio">Portfolio</Nav.Link>
           </Nav>
           <Nav>
             <Dropdown>
