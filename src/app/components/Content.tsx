@@ -15,9 +15,9 @@ const Content: React.FC<ContentProps> = ({ language }) => {
   // Efeito para atualizar a playlist e o vídeo principal com base no idioma selecionado
   useEffect(() => {
     const playlists: { [key: string]: string[] } = {
-      'en-US': ['videoId1', 'videoId2', 'videoId3'],
-      'pt-BR': ['videoId4', 'videoId5', 'videoId6'],
-      'fr-FR': ['videoId7', 'videoId8', 'videoId9']
+      'en-US': ['cTLngWAaIkA', 'CRf_-8yN9es'],
+      'pt-BR': ['zdvdBC4aF8w', 'ZcPm9-NPomI'],
+      'fr-FR': ['Usc2nYeDumI', '_5FeQfyVLQ8']
     };
     setPlaylist(playlists[language] || []);
     setMainVideoId(playlists[language][0]);  // Define o primeiro vídeo da lista como o principal

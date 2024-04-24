@@ -28,9 +28,7 @@ const Layout = ({ children }: LayoutProps) => {
 
   return (
     <div className='w-100 h-100'>
-      <header>
-        <Menu setLanguage={setLanguage} initialLanguage={language} />
-      </header>
+      
       <main>{children}</main>
       <Footer />
     </div>
