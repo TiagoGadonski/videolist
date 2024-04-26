@@ -7,24 +7,24 @@ import Menu from '../../app/components/Menu';
 const projects = [
   {
     id: 1,
-    name: "Projeto 1 - Clone do Spotify",
-    description: "Clone da interface do usuário do Spotify usando React.",
-    imageUrl: "/path/to/spotify_clone.jpg", // Certifique-se de que essas imagens estejam disponíveis no diretório público
-    url: "https://spotifyclone.com"
+    name: "Projeto 1 - Tetris Game",
+    description: "Jogo do Tetris",
+    imageUrl: "/tetris.png", 
+    url: "https://tetrisjsonly.netlify.app/"
   },
   {
     id: 2,
-    name: "Projeto 2 - Portfolio Pessoal",
-    description: "Um site de portfólio pessoal para exibir projetos de desenvolvimento web.",
-    imageUrl: "/path/to/portfolio.jpg",
-    url: "https://meuportfolio.com"
+    name: "Projeto 2 - Site de banco",
+    description: "Um site de banco",
+    imageUrl: "/bankaccount.png",
+    url: "https://bank-site-tiago.netlify.app/"
   },
   {
     id: 3,
-    name: "Projeto 3 - E-commerce Shop",
-    description: "Uma plataforma de e-commerce construída usando Next.js e Stripe para pagamentos.",
-    imageUrl: "/path/to/ecommerce.jpg",
-    url: "https://myecommerce.com"
+    name: "Projeto 3 - Conversor de Moedas",
+    description: "Conversor de moedas com todos tipos disponiveis.",
+    imageUrl: "/conversor.png",
+    url: "https://conversordemoedastgoco.netlify.app/"
   }
 ];
 

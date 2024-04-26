@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Container, Nav, Navbar, Dropdown } from 'react-bootstrap';
 import CountryFlag from 'react-country-flag';
+import Image from 'next/image';
 
 interface MenuProps {
   setLanguage: (language: string) => void;
@@ -18,7 +19,14 @@ const Menu: React.FC<MenuProps> = ({ setLanguage, initialLanguage }) => {
   return (
     <Navbar bg="dark" variant="dark" expand="lg" className="bg-secondary mb-3 d-flex justify-content-between">
       <Container className="d-flex justify-content-between">
-        <Navbar.Brand className="" href="#home">Logo</Navbar.Brand>
+        <Navbar.Brand className="" href="#home">
+        <Image 
+                src="/logo.png" // Assuming 'public' as the root directory
+                alt="Logo" // Add a descriptive alt tag for accessibility
+                width={100} // Specify width
+                height={50} // Specify height
+            />
+        </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
@@ -43,8 +51,7 @@ const Menu: React.FC<MenuProps> = ({ setLanguage, initialLanguage }) => {
                 </Dropdown.Item>
               </Dropdown.Menu>
             </Dropdown>
-            <Nav.Link href="#signup">Sign Up</Nav.Link>
-            <Nav.Link href="#signin">Sign In</Nav.Link>
+
           </Nav>
         </Navbar.Collapse>
       </Container>
