@@ -21,10 +21,10 @@ const Menu: React.FC<MenuProps> = ({ setLanguage, initialLanguage }) => {
       <Container className="d-flex justify-content-between">
         <Navbar.Brand className="" href="#home">
         <Image 
-                src="/logo.png" // Assuming 'public' as the root directory
-                alt="Logo" // Add a descriptive alt tag for accessibility
-                width={100} // Specify width
-                height={50} // Specify height
+                src="/logo.png" 
+                alt="Logo" 
+                width={100} 
+                height={50} 
             />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
