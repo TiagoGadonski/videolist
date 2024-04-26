@@ -38,8 +38,8 @@ const ProjectCarousel: React.FC<ProjectCarouselProps> = ({ projects }) => {
             src={project.imageUrl}
             alt={project.name}
             layout="responsive" 
-            width={500} 
-            height={300} 
+            width={300} 
+            height={100} 
             className="img-fluid"
           />
           <div className="position-absolute top-50 start-50 translate-middle text-center"
