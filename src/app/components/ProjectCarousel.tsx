@@ -44,8 +44,10 @@ const ProjectCarousel: React.FC<ProjectCarouselProps> = ({ projects }) => {
           />
           <div className="position-absolute top-50 start-50 translate-middle text-center"
                style={{ width: "90%", height: "60%", background: "rgba(0, 0, 0, 0.5)", backdropFilter: "blur(8px)" }}>
+            <a href={project.url}>
             <h3 className="text-white fs-5">{project.name}</h3>
             <p className="text-white">{project.description}</p>
+              </a>
           </div>
         </div>
       ))}
